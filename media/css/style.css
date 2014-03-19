@@ -1,0 +1,30 @@
+body {
+background-color:#6b0000;
+height: 100%;
+background-image: url(../images/bg.svg);
+background-size:100% 100%;
+-o-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+#logoText {
+position: absolute;
+top: 50%;
+left: 50%;
+background-image: url('../images/logo_text.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#fbLink {
+position: absolute;
+left: 20px;
+bottom: 20px;
+}
+
+.fbButton {
+width: 20px;
+height: 20px;
+}
